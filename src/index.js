@@ -5,15 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import HandlingEvents from './HandlingEvents';
 import SetState from './SetState';
-import Mosh from "./Mosh"
+import Mosh from "./Mosh";
+
+
 
 
 
 ReactDOM.render(
   <div>
-    <Mosh />,
+    <Mosh />
     <React.StrictMode>,<SetState />,
-      <App />, <HandlingEvents />, 
+      <App />, <HandlingEvents />,
     </React.StrictMode>
   </div>,
   document.getElementById('root')

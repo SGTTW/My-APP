@@ -12,7 +12,19 @@ code {
     monospace;
 }
 
-clickingClassName {
+.clickingClassName {
 
   color: orange;
 }
+/* 
+.border {
+
+  color: white;
+  border-radius: 7px;
+  border: 1px solid blue;
+  width: fit-content;
+  background-color: blue;
+  height: fit-content;
+  margin-left: 5px;
+  padding: 7px;
+} */
